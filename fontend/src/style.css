@@ -1,0 +1,491 @@
+
+#topmenu
+{
+    height: 50px;
+    background-color: #1ECBE1;
+    padding: 10px;
+
+}
+#topmenu ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+#topmenu ul li 
+{
+    margin: 20px;
+    color: #E1341E;
+
+}
+
+.topmenu
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: serif;
+    
+}
+h1
+{
+    color: red;
+
+    font-weight: bold;
+}
+
+  .navbar {
+  background-color: #333;
+
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: #bf2fd0 ;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar-item:hover {
+  background-color: #14EBD8;
+}
+
+
+
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+  }
+
+  input:focus {
+    border-color: #4CAF50;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+  .make {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .make tr:first-child td {
+    background-color: red;
+    font-size: 20px;
+  }
+  
+  .make td, .make th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .make th {
+    background-color: #f2f2f2;
+  }
+  
+  .make tr:hover {
+    background-color: #f5f5f5; 
+  }
+  img
+  {
+    width: 30px;
+  }
+  h1
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* styles.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+
+  .display-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .display-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .student-table, .student-table th, .student-table td {
+    border: 1px solid #ddd;
+  }
+  
+  .student-table th, .student-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .search-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.search-title {
+  text-align: center;
+  color: #333;
+}
+
+.search-input-container {
+  text-align: center;
+}
+
+.search-input {
+  display: block;
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.search-button:hover {
+  background-color: #218838;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table, .student-table th, .student-table td {
+  border: 1px solid #ddd;
+}
+
+.student-table th, .student-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+/*  */
+
+.edit-container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .edit-title {
+    text-align: center;
+    color: #333;
+  }
+  
+
+/* Basic table styling */
+.edit-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #dddddd;
+
+  }
+  
+  .edit-table thead tr {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-table th, .edit-table td {
+
+    border: 1px solid #dddddd;
+  }
+  
+  .edit-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .edit-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .edit-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 600px) {
+    .edit-table {
+      overflow-x: auto;
+    }
+  }
+  
+  
+  .edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+
+/* Edit record */
+
+  .form-containere {
+    display: block;
+    justify-content: center;
+
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .form-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-button:hover {
+    background-color: #218838;
+  }
+
+  /* Delete.css */
+
+.delete-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .delete-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .delete-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .delete-table th, .delete-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .delete-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .delete-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .delete-button:hover img {
+    filter: brightness(80%);
+  }
+  
