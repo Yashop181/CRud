@@ -7,7 +7,7 @@ const Edit = () => {
   const [mydata, setMydata] = useState({});
 
   const loadData = () => {
-    axios.get("http://localhost:8000/studisplay").then((res) => {
+    axios.get("https://crud-lc27.onrender.com/studisplay").then((res) => {
       setstuData(res.data);
 
     });
@@ -19,7 +19,7 @@ const Edit = () => {
   }, []);
 
   const myEdit = (id) => {
-    axios.get(`http://localhost:8000/stuedit/${id}`).then((res) => {
+    axios.get(`https://crud-lc27.onrender.com/stuedit/${id}`).then((res) => {
       setMydata(res.data);
 
 
@@ -33,7 +33,7 @@ const Edit = () => {
   };
 
   const editSave = () => {
-    axios.post(`http://localhost:8000/editsave/${mydata._id}`, mydata)
+    axios.post(`https://crud-lc27.onrender.com/editsave/${mydata._id}`, mydata)
       .then((res) => {
         loadData();
         toast.success("Data edit Successfully")
