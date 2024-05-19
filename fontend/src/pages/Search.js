@@ -8,7 +8,7 @@ const Search = () => {
   const [stuData, setStuData] = useState([]);
 
   const handleSubmit = () => {
-    axios.post("http://localhost:8000/stusearch", { rollno: rollno })
+    axios.post("https://crud-lc27.onrender.com/stusearch", { rollno: rollno })
       .then((res) => {
         setStuData(res.data);
       });
