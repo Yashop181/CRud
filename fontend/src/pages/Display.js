@@ -6,7 +6,7 @@ const Display = () => {
   const [studata, setstuData] = useState([]);
 
   const loadData = () => {
-    axios.get("http://localhost:8000/studisplay").then((res) => {
+    axios.get("https://crud-lc27.onrender.com/studisplay").then((res) => {
       setstuData(res.data);
     });
   };
