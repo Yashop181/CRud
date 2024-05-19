@@ -17,7 +17,7 @@ const Insert = () => {
 
   const handleSubmit=()=>
   {
-    axios.post("http://localhost:8000/datasave" ,input)
+    axios.post("https://crud-lc27.onrender.com/datasave" ,input)
     .then(toast.success("Data Saved Successful!!!!"));
   }
 
