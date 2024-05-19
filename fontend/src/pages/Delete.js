@@ -6,7 +6,7 @@ const Delete = () => {
   const [studata, setStuData] = useState([]);
 
   const loadData = () => {
-    axios.get("http://localhost:8000/studisplay").then((res) => {
+    axios.get("https://crud-lc27.onrender.com/studisplay").then((res) => {
       setStuData(res.data);
     });
   };
@@ -16,7 +16,7 @@ const Delete = () => {
   }, []);
 
   const myDel = (id) => {
-    axios.get(`http://localhost:8000/studelete/${id}`).then((res) => {
+    axios.get(`https://crud-lc27.onrender.com/studelete/${id}`).then((res) => {
       loadData();
       toast.success("Data Deleted!!")
     });
